@@ -1,5 +1,7 @@
-body {
+/* body {
 	background-color: #48ab6c;
+	height: 100vh;
+	position: relative;
 }
 
 div.our-form {
@@ -14,8 +16,68 @@ div.our-form {
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px; */
-	
+/*	padding: 10px 10px 10px 10px;
+	text-align: left;
+	position: absolute;
+	bottom: calc(50% - 200px);
+	right: calc(50% - 250px);
+}
+
+h1 {
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+label {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+div.form-group {
+	margin-bottom: 20px;
+}
+
+input {
 	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+input::placeholder {
+	color: rgba(0,0,0,0.4);
+}
+
+input.form-btn {
+	background-color: #48ab6c;
+	border-color: #48ab6c;
+	color: white;
+} */
+
+
+
+body {
+	background-color: #48ab6c;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.our-form {
+	background-color: white;
+	width: 500px;
+	height: 400px;
+	border-radius: 8px;
+	border-width: 10px;
+	border-color: red;
+	border-style: solid;
+	/* padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px; */
+	padding: 10px 10px 10px 10px;
+	text-align: left;
 }
 
 h1 {
