@@ -59,9 +59,18 @@ input.form-btn {
 body {
 	background-color: #48ab6c;
 	height: 100vh;
+	text-align: center;
+}
+
+div.form-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+img.our-logo {
+	max-width: 230px;
+	margin: 20px 0px 20px 0;
 }
 
 div.our-form {
