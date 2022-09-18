@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'OctinSportsRegular';
+    src: url('../fonts/octin-sports-rg.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+}
