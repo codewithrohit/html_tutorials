@@ -2,11 +2,36 @@
 <html>
     <head>
         <title>Deni Product</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- stylesheets -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="mobile-nav">
+            <span class="close-btn">Close Me</span>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
         <header>
             <div class="web-logo">
                 <h1>DENI</h1>
@@ -46,6 +71,7 @@
                     </li>
                 </ul>
             </div>
+            <span id="mobile-menu-toggle"></span>
         </header>
         <section id="contact-us">
             <h4 class="text-center">Contact Us</h4>
@@ -108,5 +134,6 @@
                 </div>
             </div>
         </footer>
+        <script src="js/custom.js"></script>
     </body>
 </html>
