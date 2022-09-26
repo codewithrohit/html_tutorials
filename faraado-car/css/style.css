@@ -55,6 +55,26 @@ nav {
     color: #ffffff;
 }
 
+body.menuActive .menu-btn span, body.menuActive .menu-btn:before, body.menuActive .menu-btn:after {
+    background-color: #111212;
+}
+
+body.menuActive .menu-btn span {
+    display: none;
+}
+
+body.menuActive .menu-btn:before {
+    transform: rotate(-45deg);
+    top: 10px;
+    transition: transform ease 0.5s;
+}
+
+body.menuActive .menu-btn:after {
+    transform: rotate(45deg);
+    bottom: 6px;
+    transition: transform ease 0.5s;
+}
+
 .menu-btn {
     width: 28px;
     height: 20px;
@@ -188,4 +208,20 @@ nav {
     position: absolute;
     bottom: 20px;
     color: #ffffff;
+}
+
+/* slide navigation */
+#slide-navigation {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    z-index: 9998;
+    background-color: #ffffff;
+    top: 0px;
+    right: -250px;
+    transition: all ease 0.1s;
+}
+
+body.menuActive #slide-navigation {
+    right: 0px;
 }

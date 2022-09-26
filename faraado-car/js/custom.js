@@ -24,4 +24,18 @@ jQuery(document).ready(function($) {
         slideArray[i].children[0].insertAdjacentElement("beforeend", afterSpan)
     }
 
+    // slide naviagtion
+    var slideBox = document.getElementById("slide-navigation");
+    document.querySelector(".menu-btn").addEventListener("click", function() {
+        
+        var body = document.querySelector("body");
+
+        if(body.classList.contains("menuActive")){
+            body.classList.remove("menuActive");
+        }else {
+            body.classList.add("menuActive");
+        }
+        
+    })
+
 });
