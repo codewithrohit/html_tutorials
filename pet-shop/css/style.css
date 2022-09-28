@@ -1,0 +1,79 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+/* Box Sizing */
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+/* Main Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc-spacebetween {
+    justify-content: space-between;
+}
+
+.top-home {
+    background-color: #daac00;
+    padding: 30px 0 30px 0;
+}
+
+.menu ul li a {
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.menu ul {
+    gap: 40px;
+    margin-top: 16px;
+}
+
+.search-bar input {
+    background-color: #fcc302;
+    color: #ffffff;
+    border: none;
+    outline: 0px;
+    min-height: 48px;
+    padding: 0 18px 0 18px;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 192px;
+    width: 100%;
+}
+
+.search-bar input::placeholder {
+    color: #ffffff;
+}
+
+.search-bar button {
+    background-color: #00bec9;
+    min-height: 48px;
+    width: 67px;
+    border: none;
+}
+
+.form-group {
+    margin-top: 4px;
+    box-shadow: 15px 17px 17px rgba(74,74,74, 0.1);
+}
