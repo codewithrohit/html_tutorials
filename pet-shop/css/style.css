@@ -87,6 +87,9 @@ h2 {
     min-height: 48px;
     width: 67px;
     border: none;
+    padding: 11px 12px;
+    border-radius: 0px;
+    line-height: 20px;
 }
 
 .form-group {
@@ -129,4 +132,134 @@ button.blue {
 button.without-bg {
     background: transparent;
     border-color: #ffffff;
+}
+
+#posts-section {
+    padding: 120px 0 120px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-heading h3 {
+    color: #313243;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 52px;
+}
+
+.section-heading p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    border: 2px solid #d6d6d6;
+    max-width: 342px;
+    cursor: pointer;
+}
+
+.article-image img {
+    width: 100%;
+}
+
+.article-content {
+    padding: 25px 25px 25px 25px;
+}
+
+.article-heading {
+    margin-bottom: 20px;
+}
+
+.article-heading h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #313243;
+    margin-bottom: 10px;
+}
+
+span.article-date {
+    color: #00bec9;
+    text-transform: uppercase;
+}
+
+.article-content p {
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.article-content button {
+    color: #00bec9;
+    padding: 0px;
+    border: 0px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.article:hover {
+    border-color: transparent;
+}
+
+#footer-section {
+    background-color: #343434;
+    padding: 130px 0 130px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-socials {
+    text-align: right;
+    color: #ffffff;
+}
+
+.company-address h4 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+    line-height: 32px;
+}
+
+.company-address {
+    margin-bottom: 30px;
+}
+
+.company-social-links ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.company-newsletter {
+    margin-bottom: 45px;
+}
+
+.company-newsletter input {
+    background-color: #daac00;
+    border: 0px;
+    outline: 0;
+    min-height: 86px;
+    min-width: 365px;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 15px 15px;
+}
+
+.company-newsletter button {
+    background-color: #00bec9;
+    border-radius: 0px;
+    border: 0px;
+    float: right;
+    min-height: 86px;
+    min-width: 136px;
 }
