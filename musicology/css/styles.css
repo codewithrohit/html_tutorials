@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('reset.css');
+
+/* Box Sizing Border Box */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Main Styling */
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+/* Header */
+
+#header {
+    background-color: #303030;
+    padding: 15px 0 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 45px;
+}
+
+.menu ul li a {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Home Slider */
+#home-slider {
+    min-height: 100vh;
+    background-image: url('../images/home-slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Dance Tour */
+#dance-tour {
+    min-height: 100vh;
+    background-image: url('../images/dance-tour-bg.png');
+    background-repeat: no-repeat;
+    background-color: #e8631c;
+}
+
+/* Pricing */
+#pricing {
+    min-height: 100vh;
+    background-image: url('../images/pricing-dots.png');
+    background-repeat: no-repeat;
+    background-color: #303030;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #303030;
+    padding: 100px 0 70px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.company-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.company-details h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.company-details p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.company-details ul {
+    display: flex;
+    gap: 15px;
+}
+
+.company-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.company-menu div h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.company-menu div ul {
+    min-width: 220px;
+}
+
+.company-menu div ul li a {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.company-menu div ul li {
+    margin-bottom: 15px;
+}
