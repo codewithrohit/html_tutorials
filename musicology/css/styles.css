@@ -64,6 +64,42 @@ a {
     background-size: 100% 100%;
 }
 
+.home-slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    min-height: calc(100vh - 150px);
+    max-width: 50%;
+}
+
+.home-slide-title {
+    font-size: 118px;
+    line-height: 126px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.home-slide-content p {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-slide-content button {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #e8631c;
+    color: #ffffff;
+    padding: 12px 75px 12px 75px;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Dance Tour */
 #dance-tour {
     min-height: 100vh;
